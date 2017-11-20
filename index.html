@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <!--encabezado-->
+    <header>
+            <!--enlaces-->
+            <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
+            <a href="#"><i class="fa fa-bell" aria-hidden="true"></i>Notificaciones</a>
+            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Mensajes</a>
+            <!--título-->
+            <h1><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</h1>
+            <!--buscador-->
+            <div class="search">
+              <input type="text" name="" value="Busca en twitter">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <!--usuario-->
+            <span class="user"><i class="fa fa-user-circle" aria-hidden="true"></i>Karina Vivanco</span>
+          </header>
+      
+          <main>
+            <!--recuadro de presentacion-->
+            <div class="presentation">
+              <div class="box1"></div>
+              <div class="text">
+                <p>Hello!!,</p>
+                <p>Soy Karina Vivanco</p>
+                <p>estudiante de Laboratoria</p>
+              </div>
+              <div class="circle">
+                <img src="assets/imgs/kari.jpg" alt="yo">
+              </div>
+            </div>
+            <!--seccion de entrada dekl mensaje-->
+            <div class="box">
+              <form class="formul"name="formul">
+                <!--seccion de entrada dekl mensaje-->
+                <textarea  id="input-text" type="text" name="texto" value="" placeholder="What are you thinking?"></textarea>
+                <!--boton del formulario-->
+                <button id="send" type="button" name="button">Tweet</button>
+                <!--contador-->
+                <p id="count">150</p>
+              </form>
+              <!--contenedor de los nuevos textos-->
+              <div id="box-newtext">
+      
+              </div>
+            </div>
+          </main>
+
+    <script src="js/app.js"></script>    
+</body>
+
+
+</html>
