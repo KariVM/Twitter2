@@ -1,1 +1,191 @@
-ECHO est† activado.
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  header{
+    color: beige;
+    background-color:#e99542;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    font-size: 22px;
+  
+  }
+  /*aplicando estilos a los enlaces del encabezado*/
+  header a{
+    /*outline: 1px solid red;*/
+    text-decoration: none;
+    color: beige;
+    margin-left: 20px;
+  }
+  /*titulo twitter*/
+  header h1{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+  }
+  /*El buscador*/
+  header .search{
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgb(230, 189, 136);
+    border-radius: 8px;
+    margin-left: 120px;
+  }
+  /*estilos a la entrada del buscador */
+  header .search input{
+  border: none;
+  background-color: transparent; 
+  }
+  /*estilos al usuario*/
+  .user{
+    margin-left: 70px;
+    font-size: 18px;
+  }
+  /*cuerpo*/
+  main{
+    background-image: url(../assets/imgs/conejito.jpg);
+    /*la imagen de fondo no se repite*/
+    background-repeat: repeat-y;
+    /*se aplica para que cubra toda la zona*/
+    background-size: cover;
+    height: 1000px;
+  }
+  /*aplicando estilo al cuadro de presentacion*/
+  main .presentation{
+    border:5px dotted #FFC0CB;
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    position: relative;
+    top:120px;
+    left: 20px;
+    border-radius: 10px;
+  }
+  /*primera secci√≥n*/
+  main .presentation .box1{
+    background-color: #FFC0CB;
+    height: 100px;
+  }
+  img{
+    width: 100%;
+      border-radius: 50px;
+  }
+  /*circulo*/
+  .presentation .circle{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: #FFB6C1;
+    position: relative;
+    bottom: 380px;
+  }
+  
+  /*texto de la presentacion*/
+  .presentation .text{
+    /*outline: 1px solid red;*/
+    margin-left: 120px;
+    margin-bottom: 300px;
+    height: 50px;
+    line-height: 2;
+  }
+  
+  /*contenedor*/
+  .box{
+    /*outline: 1px solid red;*/
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 30%;
+    bottom: 170px;
+  }
+  /*formulario*/
+  .formul{
+    background-color: white;
+    border-radius: 20px;
+  }
+  /*entrada del texto*/
+  #input-text{
+    width: 100%;
+  
+    border: 1px solid #fbb0c7;
+    border-bottom: 5px dotted #fbb0c7;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  
+  #input5{
+    height: auto;
+  }
+  /*boton enviar */
+  #send{
+    padding: 10px;
+  border-radius: 10px;
+    background-color:  #FFB6C1;
+  border: 3px dotted #FA8072;
+    color: white;
+  }
+  #count{
+  /*outline: 1px solid blue;*/
+  height: 20px;
+  display: inline-block;
+  width: 30px;
+  margin-left: 550px;
+  font-size: 30px;
+  color: #fbb0c7;
+  
+  }
+  /*contenedor de los nuevos mensajes*/
+  #box-newtext{
+    width: 70%;
+  }
+  /*nuevos textos*/
+  #box-newtext div{
+    background-color:#fbb0c7;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px double white;
+    /*el texto se adecua al su contenedor,genera saltos de linea*/
+    word-break: break-all;
+  }
+  /*estilos para las escalas del contado*/
+  #red{
+    height: 20px;
+    display: inline-block;
+    width: 30px;
+    margin-left: 550px;
+    font-size: 30px;
+    color:red;
+  }
+  #purple{
+    height: 20px;
+    display: inline-block;
+    width: 30px;
+    margin-left: 550px;
+    font-size: 30px;
+    color:#CD00FF;
+  }
+  #blue{
+    height: 20px;
+    display: inline-block;
+    width: 30px;
+    margin-left: 550px;
+    font-size: 30px;
+    color:#2B00FF;
+  }
+  
+  #big{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #fbb0c7;
+    border-bottom: 5px dotted #fbb0c7;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  
