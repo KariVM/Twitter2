@@ -7,7 +7,7 @@
   
   header{
     color: beige;
-    background-color:#e99542;
+    background-color:#4bd6db;
     height: 60px;
     width: 100%;
     top: 0;
@@ -32,7 +32,7 @@
   header .search{
     display: inline-block;
     border: 1px solid white;
-    background-color: rgb(238, 204, 162);
+    background-color: rgb(209, 235, 240);
     border-radius: 8px;
     margin-left: 120px;
   }
@@ -41,6 +41,7 @@
   border: none;
   background-color: transparent; 
   }
+
   /*estilos al usuario*/
   .user{
     margin-left: 70px;
@@ -48,17 +49,14 @@
   }
   /*cuerpo*/
   main{
-    background-image: url(../assets/imgs/conejito.jpg);
-    /*la imagen de fondo se repite*/
-    background-repeat: repeat;
-    /*se aplica para que cubra toda la zona*/
+    background-image: url(../assets/imgs/paisaje.jpg);
     background-size: cover;
     height: 1000px;
   }
-  /*aplicando estilo al cuadro de presentacion*/
-  main .presentation{
-    border:5px dotted #FFC0CB;
-    background-color: white;
+  /*Aplicando estilo al cuadro del saludo*/
+  main .saludo{
+    border:5px ;
+    background-color: beige;
     width: 25%;
     height: 300px;
     position: relative;
@@ -66,67 +64,63 @@
     left: 20px;
     border-radius: 10px;
   }
-  /*primera sección*/
-  main .presentation .box1{
-    background-color: #FFC0CB;
+  /*Primera sección*/
+  main .saludo .box1{
+    background-color: #4bd6db;
     height: 100px;
   }
   img{
-    width: 120%;
-      border-radius: 120px;
+    width: 100%;
+      border-radius: 100px;
   }
-  /*circulo*/
-  .presentation .photo{
-    height: 110px;
-    width: 110px;
-    border: 2px solid white;
+  /*Para el circulo*/
+  .saludo .photo{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
     border-radius: 50px;
-    background-color: #FFB6C1;
+    background-color: #4bd6db;
     position: relative;
     bottom: 380px;
   }
   
-  /*texto de la presentacion*/
-  .presentation .text{
+  /*Texto deL saludo*/
+  .saludo .text{
     margin-left: 120px;
     margin-bottom: 300px;
     height: 50px;
     line-height: 2;
   }
   
-  /*contenedor*/
+  /*Contenedor*/
   .box{
-    /*outline: 1px solid red;*/
     width: 50%;
     height: 300px;
     position: relative;
     left: 30%;
     bottom: 170px;
   }
-  /*formulario*/
+  /*Formulario*/
   .formul{
-    background-color: white;
+    background-color: beige;
     border-radius: 20px;
   }
-  /*entrada del texto*/
+  /*Entrada del texto*/
   #input-text{
     width: 100%;
-  
-    border: 1px solid #fbb0c7;
-    border-bottom: 5px dotted #fbb0c7;
+    border: 1px solid #b9e9e6;
     font-size: 20px;
     overflow: hidden;
   }
   
-  #input5{
+  #input{
     height: auto;
   }
-  /*boton enviar */
+  /*Botón enviar */
   #send{
     padding: 10px;
-  border-radius: 10px;
-    background-color:  rgb(240, 146, 39);
-  border: 3px dotted rgb(241, 123, 13);
+    border-radius: 10px;
+    background-color: #4bd6db;
     color: beige;
   }
   #count{
@@ -136,7 +130,7 @@
   width: 30px;
   margin-left: 550px;
   font-size: 30px;
-  color: #fbb0c7;
+  color: #4bd6db;
   
   }
   /*contenedor de los nuevos mensajes*/
@@ -145,45 +139,11 @@
   }
   /*nuevos textos*/
   #box-newtext div{
-    background-color:#f38e2f;s
+    background-color:#4bd6db;
     margin-top: 10px;
     border-radius: 5px;
     border: 5px double beige;
     /*Genera saltos de linea*/
     word-break: break-all;
-  }
-  /*estilos para las escalas del contado*/
-  #red{
-    height: 20px;
-    display: inline-block;
-    width: 30px;
-    margin-left: 550px;
-    font-size: 30px;
-    color:red;
-  }
-  #purple{
-    height: 20px;
-    display: inline-block;
-    width: 30px;
-    margin-left: 550px;
-    font-size: 30px;
-    color:#CD00FF;
-  }
-  #blue{
-    height: 20px;
-    display: inline-block;
-    width: 30px;
-    margin-left: 550px;
-    font-size: 30px;
-    color:#2B00FF;
-  }
-  
-  #big{
-    width: 100%;
-    height: 120px;
-    border: 1px solid #fbb0c7;
-    border-bottom: 5px dotted #fbb0c7;
-    font-size: 20px;
-    overflow: hidden;
   }
   
