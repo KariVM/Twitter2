@@ -15,29 +15,28 @@
     font-size: 22px;
   
   }
-  /*aplicando estilos a los enlaces del encabezado*/
+  /*Aplicando estilos a los enlaces del encabezado*/
   header a{
-    /*outline: 1px solid red;*/
     text-decoration: none;
     color: beige;
-    margin-left: 20px;
+    margin-left: 18px;
   }
-  /*titulo twitter*/
+  /*título twitter*/
   header h1{
-    width: 30%;
+    width: 35%;
     display: inline-block;
     text-align: center;
-    margin-left: 25px;
+    margin-left: 15px;
   }
   /*El buscador*/
   header .search{
     display: inline-block;
     border: 1px solid white;
-    background-color: rgb(230, 189, 136);
+    background-color: rgb(238, 204, 162);
     border-radius: 8px;
     margin-left: 120px;
   }
-  /*estilos a la entrada del buscador */
+  /*Estilos entrada del buscador */
   header .search input{
   border: none;
   background-color: transparent; 
@@ -45,13 +44,13 @@
   /*estilos al usuario*/
   .user{
     margin-left: 70px;
-    font-size: 18px;
+    font-size: 20px;
   }
   /*cuerpo*/
   main{
     background-image: url(../assets/imgs/conejito.jpg);
-    /*la imagen de fondo no se repite*/
-    background-repeat: repeat-y;
+    /*la imagen de fondo se repite*/
+    background-repeat: repeat;
     /*se aplica para que cubra toda la zona*/
     background-size: cover;
     height: 1000px;
@@ -73,13 +72,13 @@
     height: 100px;
   }
   img{
-    width: 100%;
-      border-radius: 50px;
+    width: 120%;
+      border-radius: 120px;
   }
   /*circulo*/
-  .presentation .circle{
-    height: 100px;
-    width: 100px;
+  .presentation .photo{
+    height: 110px;
+    width: 110px;
     border: 2px solid white;
     border-radius: 50px;
     background-color: #FFB6C1;
@@ -89,7 +88,6 @@
   
   /*texto de la presentacion*/
   .presentation .text{
-    /*outline: 1px solid red;*/
     margin-left: 120px;
     margin-bottom: 300px;
     height: 50px;
@@ -127,9 +125,9 @@
   #send{
     padding: 10px;
   border-radius: 10px;
-    background-color:  #FFB6C1;
-  border: 3px dotted #FA8072;
-    color: white;
+    background-color:  rgb(240, 146, 39);
+  border: 3px dotted rgb(241, 123, 13);
+    color: beige;
   }
   #count{
   /*outline: 1px solid blue;*/
@@ -147,11 +145,11 @@
   }
   /*nuevos textos*/
   #box-newtext div{
-    background-color:#fbb0c7;
+    background-color:#f38e2f;s
     margin-top: 10px;
     border-radius: 5px;
-    border: 5px double white;
-    /*el texto se adecua al su contenedor,genera saltos de linea*/
+    border: 5px double beige;
+    /*Genera saltos de linea*/
     word-break: break-all;
   }
   /*estilos para las escalas del contado*/
